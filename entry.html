@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <!-- firebase stuffs -->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
+    <script src="localfirage.js"></script>
+    <link href="./resources/jason.css" rel="stylesheet" type="text/css"></link>
+    <script src="enterlocalfirageloader.js"></script>
+    <!-- a proxy for oplist-->
+    <!--Click handlers for card loader-->
+    <!--handlers for input in card-->
+    <!--Add new event button-->
+    <style>
+        #sidebar>div{
+            background-color: orange;
+            padding: 5px;
+            margin: 5px;
+        }
+        #sidebar{
+            margin: 5px;
+        }
+        textarea{
+            width:100%;
+            height: 20vh;
+        }
+    </style>
+</head>
+<body style="display:flex;flex-direction:row">
+    <div style="flex:0 1 20%">
+        <h1>Current items</h1>
+        <div id="sidebar">
+                <div id="newEventButton" style="background: darkorange"><h3>Add new item...</h3></div>
+        </div>
+        
+    </div>
+    <div id="card">
+        <h1><input data-role="title" placeholder="Title of opportunity"></h1>
+        <img data-role="image" src="image of opportunity">
+        <div class="filterInfo">
+            <p>Commitment:<input data-role="commitment"></p>
+            <p>Competition based:<input data-role="competition"></p>
+            <p>University Endorsed:<input data-role="uni_endorsed"></p>
+            <!--<p>Industry sponsored / endorsed:<span>YES/NO</span></p>-->
+            <!--Could potentially lead to a job opportunity or good networking contacts-->
+            <!--<p>Claimable as PEP Engineering Hours:<span>YES/MAYBE/NO</span></p>-->
+            <!--<p>Tags:</p>
+            <div class="tagbubbles">
+                <span>Potato</span>
+                <span>Tomato</span>
+            </div>-->
+        </div>
+        <h2>Brief</h2>
+        <textarea data-role="description" placeholder="Description of opportunity"></textarea>
+        <h2>Contact details</h2>
+        <textarea data-role="contacts" placeholder="Emails, meetings etc"></textarea>
+        <button id="savebtn">Save</button>
+    </div>
+</body>
+
+</html>

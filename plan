@@ -1,0 +1,135 @@
+<html>
+firebase backend for storing data
+
+- check whether user has come before using localstorage
+- otherwise show flood screen.
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>0
+
+
+Welcome to the USYD Engineering Initiative Search!
+
+[sideways - scrolling list of opportunity cards .-.]
+|        ||        ||        ||        |
+| RobotX ||  VIVID ||Angry   ||  sth   |
+|        ||        ||Birds AI||  else  |
+|        ||        ||        ||        |
+
+(to have synergy with the advertisments)
+{(magnifyingglass) Search for an opportunity ...} > 1
+
+
+[Browse all opportunities] > 2
+
+
+Have we met? 
+[To see your saved filters, login below!]
+[Login]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>1
+< YOUR SEARCH TERM > {magnifyingglass}
+
+---------------------------------------------
+| RobotX                                    |
+| Build giant automatic boats!              |
+|                                           |
+|                                           |
+---------------------------------------------
+| VIVID                                     |
+| Pretty lights yay!                        |
+|                                           |
+|                                           |
+---------------------------------------------
+
+
+
+Click to view a single scrollable card
+Single scrollable card: has a back button.
+At the bottom: 'Not quite what you had in mind? 
+Here are some similar opportunities...
+OR, filter and browse all our opportunities now!
+[Get started]
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>2
+              Filter opportunities
+1. What's your major?
+[Mechatronics]v
+
+2. How much spare time do you have?
+--------|=======|-------------
+1 hr/wk               40 hr/wk
+
+3. Enter some keywords you might be interested in...
+<...........>
+[Artificial Intelligence] [Power Engineering]
+
+
+
+button at the bottom
+{View opportunties}>3
+(You can come back and change your preferences at any time.)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>3
+Login with us to save your preferences on any device!
+
+
+
+
+
+[Sign in with FB]
+
+[Sign in with Google]
+
+[Email and Password]
+
+
+
+
+
+[Not now]
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[Edit filters]            [USYD INITIATIVE]          [search]
+--------------------------------------------------------------
+[TITLE OF OPPORTUNITY]
+ASCII ART OF BRIDGES COMPETITION
+[Nice picture]
+                            ___....___
+   ^^                __..-:'':__:..:__:'':-..__
+                 _.-:__:.-:'':  :  :  :'':-.:__:-._
+               .':.-:  :  :  :  :  :  :  :  :  :._:'.
+            _ :.':  :  :  :  :  :  :  :  :  :  :  :'.: _
+           [ ]:  :  :  :  :  :  :  :  :  :  :  :  :  :[ ]
+           [ ]:  :  :  :  :  :  :  :  :  :  :  :  :  :[ ]
+  :::::::::[ ]:__:__:__:__:__:__:__:__:__:__:__:__:__:[ ]:::::::::::
+  !!!!!!!!![ ]!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![ ]!!!!!!!!!!!
+  ^^^^^^^^^[ ]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[ ]^^^^^^^^^^^
+           [ ]                                        [ ]
+           [ ]                                        [ ]
+     jgs   [ ]                                        [ ]
+   ~~^_~^~/   \~^-~^~ _~^-~_^~-^~_^~~-^~_~^~-~_~-^~_^/   \~^ ~~_ ^
+
+[Filter information]
+EFFORT: % % % %
+EXTERNAL COMPETITION: YES
+ENG / non ENG: ENG
+Tags: [bridge] [civil] [ascii art]
+
+[Description of opportunity]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales 
+nunc vitae ante ullamcorper malesuada. Nulla ultricies auctor aliquam. 
+Sed a tristique lacus. Nunc sed faucibus eros. Praesent eu elit tortor. 
+Integer dignissim magna vel nulla tempor, non egestas dui imperdiet. 
+Cras lacinia tincidunt enim, et laoreet magna rutrum vitae. Nam eros 
+nisi, gravida ut mi id, ullamcorper porta nunc. Praesent ornare mi lacus, 
+sollicitudin fringilla neque pulvinar nec. Ut nec dapibus ipsum. Aliquam
+cursus vehicula est, id vulputate sem tincidunt eget. Nulla et eros 
+ornare, condimentum ante eget, feugiat ante.
+
+[Meeting times, contact details etc]
+
+
+(swipe left or right to view different opportunties. Like any decent dating app.)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
