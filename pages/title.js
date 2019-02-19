@@ -52,23 +52,11 @@ navman.addpage('title', function () {
     this.div.innerHTML = `
     <div style="display:flex; justify-content: center; flex-direction: column; height:100%; text-align:center; align-items: center">
         <h1>Welcome to the USYD Engineering Initiative Search!</h1>
-        <div class="marquee">
-            <div>
-                <div style="background-image:someurl">
-                    <h2>RobotX</h2>
-                </div>
-                <div style="background-image:someurl">
-                    <h2>VIVID</h2>
-                </div>
-                <div style="background-image:someurl">
-                    <h2>Angry Birds AI challenge</h2>
-                </div>
-            </div>
-        </div>
+        <p>Looking for an extracurricular engineering opportunity? You've come to the right place!</p>
         <span class="titleSearch"><input placeholder="Search for an opportunity..." style="width:70%;"><button class="searchStart" style="width:30%;">&#x1f50d;</button></span>
         <button class="browse">Browse all opportunities</button>
-        <h3>Have we met?</h3>
-        <button>Login</button>
+        <!--<h3>Have we met?</h3>
+        <button>Login</button>-->
     </div>
     `;
     let me = this;

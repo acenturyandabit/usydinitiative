@@ -4,14 +4,19 @@
     <!-- firebase stuffs -->
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-storage.js"></script>
     <script src="localfirage.js"></script>
-    <link href="./resources/jason.css" rel="stylesheet" type="text/css"></link>
+    <link href="./resources/jason.css" rel="stylesheet" type="text/css">
+    </link>
     <script src="enterlocalfirageloader.js"></script>
     <!-- a proxy for oplist-->
     <!--Click handlers for card loader-->
     <!--handlers for input in card-->
     <!--Add new event button-->
     <style>
+        p{
+            overflow-wrap: break-word;
+        }
         #sidebar>div{
             background-color: orange;
             padding: 5px;
@@ -26,17 +31,20 @@
         }
     </style>
 </head>
+
 <body style="display:flex;flex-direction:row">
     <div style="flex:0 1 20%">
         <h1>Current items</h1>
         <div id="sidebar">
-                <div id="newEventButton" style="background: darkorange"><h3>Add new item...</h3></div>
+            <div id="newEventButton" style="background: darkorange">
+                <h3>Add new item...</h3>
+            </div>
         </div>
-        
     </div>
     <div id="card">
         <h1><input data-role="title" placeholder="Title of opportunity"></h1>
-        <img data-role="image" src="image of opportunity">
+        <img style="height:40vh;" alt="No image uploaded"></img><br>
+        <input type="file" id="img" accept="image/png, image/jpeg">
         <div class="filterInfo">
             <p>Commitment:<input data-role="commitment"></p>
             <p>Competition based:<input data-role="competition"></p>
@@ -50,11 +58,13 @@
                 <span>Tomato</span>
             </div>-->
         </div>
-        <h2>Brief</h2>
+        <input type="text" data-role="brief" placeholder="Brief description for list">
+        <h2>Description</h2>
         <textarea data-role="description" placeholder="Description of opportunity"></textarea>
         <h2>Contact details</h2>
         <textarea data-role="contacts" placeholder="Emails, meetings etc"></textarea>
         <button id="savebtn">Save</button>
+        <button id="deletebutton" style="background:red">Delete</button>
     </div>
 </body>
 

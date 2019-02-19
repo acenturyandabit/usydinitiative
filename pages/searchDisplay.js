@@ -11,9 +11,9 @@ navman.addpage('searchDisplay', function () {
     this.div = document.createElement("div");
     this.div.innerHTML = `
     <div style="display:flex; flex-direction:column; height:100%">
-    <span style="width:100%"><input placeholder="Search for an opportunity..." style="width:70%;"><button class="searchStart" style="width:30%;">&#x1f50d;</button></span>
+    <span style="width:100%; position:sticky;top:0"><input placeholder="Search for an opportunity..." style="width:70%;"><button class="searchStart" style="width:15%;">&#x1f50d;</button><button class="clear" style="width:15%;">Clear</button></span>
         <div class="oppcards" style="display:flex; flex-direction:column; flex: 1 1 100vh;">
-
+            <p>Loading...</p>
         </div>
     </div>
     `;
@@ -28,30 +28,26 @@ navman.addpage('searchDisplay', function () {
         }
         
     })
-    this.addItem=function(itm){
-        let d=document.createElement("div");
-        d.innerHTML=`
-        <h2>`+oplist[itm].title+`</h2>
-        <p>`+oplist[itm].description+`</p>
-        `;
-        d.dataset.id=itm;
-        this.div.querySelector(".oppcards").appendChild(d);
-    }
     this.div.querySelector(".searchStart").addEventListener("click", ()=>{
         this.searchFor(this.div.querySelector("input").value);
     })
+    this.div.querySelector(".clear").addEventListener("click", ()=>{
+        this.div.querySelector("input").value="";
+        this.searchFor();
+    })
 
     this.searchFor=function(term){
-        this.div.querySelector(".oppcards").innerHTML="";
         if (term)this.div.querySelector("input").value=term;
         for (let i in oplist){
             let fullText=oplist[i].title+oplist[i].description;
             if (term){
                 if (fullText.toLowerCase().includes(term.toLowerCase())){
-                    this.addItem(i);
+                    this.div.querySelector("[data-id='"+i+"']").style.display="block";
+                }else{
+                    this.div.querySelector("[data-id='"+i+"']").style.display="none";
                 }
             }else{
-                this.addItem(i);
+                this.div.querySelector("[data-id='"+i+"']").style.display="block";
             }
         }
     }
